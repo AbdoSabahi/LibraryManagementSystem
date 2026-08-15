@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace LibraryManagementSystem.Interfaces
+﻿namespace LibraryManagementSystem.Interfaces
 {
-    internal interface ISearchable
+    public interface ISearchable
     {
+        bool MatchesQuery(string query);
     }
 }
